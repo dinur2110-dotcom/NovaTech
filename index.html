@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Проверка формы</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #f0f4f8; }
+    label { display: block; margin: 12px 0 6px; font-weight: bold; }
+    input, textarea {
+      width: 100%; max-width: 320px; padding: 10px;
+      border: 1px solid #cbd5e0; border-radius: 8px; font-size: 16px;
+    }
+    button {
+      margin-top: 16px; padding: 12px 24px;
+      background: #2b6cb0; color: white; border: none;
+      border-radius: 8px; font-size: 16px; cursor: pointer;
+    }
+    button:hover { background: #1a365d; }
+    #result { margin-top: 16px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Напишите нам</h1>
+  <form id="contact">
+    <label for="name">Имя</label>
+    <input type="text" id="name" placeholder="Анна">
+ 
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="anna@mail.ru">
+ 
+    <label for="message">Сообщение</label>
+    <textarea id="message" rows="4" placeholder="Текст..."></textarea>
+ 
+    <button type="submit">Отправить</button>
+  </form>
+  <p id="result"></p>
+ 
+  <script>
+    // JS ниже
+  </script>
+</body>
+</html>
