@@ -28,3 +28,4 @@ form.addEventListener("submit", function (event) {
 if (messageInput.value === "") {
   alert("Напишите текст сообщения");
   return;}
+  
